@@ -2,7 +2,7 @@
 date_default_timezone_set('Asia/shanghai'); 
 /*
  *---------------------------------------------------------------
- * APPLICATION ENVIRONMENT
+ * APPLICATION ENVIRONMENT ELEPHANT
  *---------------------------------------------------------------
  *
  * You can load different configurations depending on your
