@@ -39,6 +39,7 @@ $(document).keydown(function(event) {
     overflow: hidden;
 }
 #save,#add{display:none;}
+#chooseTemp,#saveTemp{display:none;}
 </style>
 </head>
 
