@@ -32,7 +32,10 @@ $(document).keydown(function(event) {
 #print{margin-left:10px;}
 /*a.ui-btn{margin-left:10px;}*/
 .ui-btn-menu{margin-left: 10px;margin-right: 0px;}
-#reAudit,#audit{display:none;}
+#reAudit,#audit{display:none !important;}
+#add,#export,#btn-batchDel,#moreCon{display:none !important;}
+.ui-pg-div{display:none !important;}/*隐藏设置*/
+
 </style>
 </head>
 

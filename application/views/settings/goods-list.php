@@ -41,6 +41,7 @@ h3{background: #EEEEEE;border: 1px solid #ddd;padding: 5px 10px;}
 #hideTree{cursor: pointer;color:#fff;padding: 0 4px;background-color: #B9B9B9;border-radius: 3px;position: absolute;top: 5px;right: 5px;}
 #hideTree:hover{background-color: #AAAAAA;}
 #clear{display:none;}
+.ui-pg-div{display:none !important;}
 </style>
 </head>
 <body>

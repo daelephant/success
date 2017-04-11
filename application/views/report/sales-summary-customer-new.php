@@ -41,7 +41,9 @@ $(document).keydown(function(event) {
 <style>
 .ui-icon-ellipsis{right:5px;}
 #grid tr{cursor:pointer;}
-
+#storage,#supplier,#billNum,#filter,#chk-wrap,#goodsfilter,#goods,#sales,#btn-export{
+		display: none !important;
+	}
 </style>
 </head>
 <body>

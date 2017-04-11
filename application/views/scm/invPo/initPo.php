@@ -74,6 +74,9 @@ $(function() {
 #barCodeInsert.active{background-color: #23B317;}
 #save{display:none;} /*#audit{display:none} *//*采购订单页面审核按钮*/
 #add,#copy,#close,#prev,#next{display:none}
+#edit{display:none;}
+#config{display:none !important;}/*隐藏设置*/
+#audit,#reAudit{display:none}
 </style>
 </head>
 

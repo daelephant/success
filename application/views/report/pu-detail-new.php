@@ -2,6 +2,11 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
+<style type="text/css">
+	#storage,#supplier,#billNum,#filter,#btn-export{
+		display: none !important;
+	}
+</style>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="renderer" content="webkit">
@@ -37,10 +42,12 @@ $(document).keydown(function(event) {
 	}
 });
 </script>
+
 <link rel="stylesheet" href="<?php echo base_url()?>statics/css/report.css?2" />
 <style>
 .ui-icon-ellipsis{right:5px;}
 #grid tr{cursor:pointer;}
+
 
 </style>
 </head>

@@ -80,7 +80,7 @@ var curRow, curCol, loading, SYSTEM = system = parent.SYSTEM,
 				}
 			}), this.accountCombo.selectByValue(a.accId, !1));
 			var c = '<a id="savaAndAdd" class="ui-btn ui-btn-sp">保存并新增</a><a id="save" class="ui-btn">保存</a>',
-				d = '<a id="add" class="ui-btn ui-btn-sp">新增</a><a id="copy" class="ui-btn">复制</a><a href="../scm/invPo.do?action=toPdf&id=' + a.id + '" target="_blank" id="print" class="ui-btn">打印</a><a id="edit" class="ui-btn">保存</a>',
+				d = '<a id="add" class="ui-btn ui-btn-sp">新增</a><a id="copy" class="ui-btn">复制</a><a href="../scm/invPo.do?action=toPdf&id=' + a.id + '" id="audit1" class="ui-btn">审核</a><a href="../scm/invPo.do?action=toPdf&id=' + a.id + '" target="_blank" id="print" class="ui-btn">打印</a><a id="edit" class="ui-btn">保存</a>',
 				e = '<a id="add" class="ui-btn ui-btn-sp">新增</a><a id="copy" class="ui-btn">复制</a><a href="../scm/invPo.do?action=toPdf&id=' + a.id + '" target="_blank" id="print" class="ui-btn">打印</a>',
 				f = "",
 				g = "",
@@ -1065,7 +1065,7 @@ var curRow, curCol, loading, SYSTEM = system = parent.SYSTEM,
 						})
 					})
 				}
-			}), $(".wrapper").on("click", "#audit", function(b) {
+			}), $(".wrapper").on("click", "#audit1", function(b) {
 				if (b.preventDefault(), Business.verifyRight("PO_CHECK")) {
 					var c = $(this),
 						d = THISPAGE.getPostData();

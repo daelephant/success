@@ -77,7 +77,6 @@ body{background: #fff;}
 .cle{clear: both;}
 #patchInputBox{ padding: 10px;  border: 1px solid #ccc;  background-color: #fff;}
 .shadow{  -moz-box-shadow: 1px 1px 3px rgba(0,0,0,.4);  -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,.4);  box-shadow: 1px 1px 3px rgba(0,0,0,.4);}
-.extra-list-ctn,#warning{display:none}
 </style>
 </head>
 <body>
@@ -86,7 +85,7 @@ body{background: #fff;}
 		<li class="cur tabItem">基础资料</li>
         <li class="tabItem">库存预警</li>
         <li class="tabItem">高级</li>
-        <li class="tabItem" style="display:none">期初设置</li>
+        <li class="tabItem" style="display:none;">期初设置</li>
 	</ul>
 </div>
 <div id="tabContent">
@@ -210,7 +209,7 @@ body{background: #fff;}
     <div class="manage-wrapper dn">
         <div id="manage-wrap" class="manage-wrap">
             <div class="cf">
-                <!-- <h3>库存预警</h3> --><label id='warning'><input type="checkbox">启用分仓预警</label><label id='warningSku' class="dn"><input type="checkbox">根据属性设置</label>
+                <!-- <h3>库存预警</h3> --><!-- <label id='warning'><input type="checkbox">启用分仓预警</label> --><label id='warningSku' class="dn"><input type="checkbox">根据属性设置</label>
                 <ul class="mod-form-rows base-form cf">
                     <li class="row-item">
                         <div class="label-wrap"><label for="minInventory">最低库存</label></div>

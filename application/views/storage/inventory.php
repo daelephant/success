@@ -45,7 +45,7 @@ $(document).keydown(function(event) {
   <div class="mod-search cf">
     <div class="fl">
       <ul class="ul-inline cf">
-        <li>
+        <li style="display:none">
           <span id="storage"></span>
         </li>
         <li>
@@ -56,7 +56,7 @@ $(document).keydown(function(event) {
           <input type="text" id="goods" class="ui-input w200">
         </li>
         <li id="chkField">
-          <label class="chk" style="margin-top:6px; " title="显示零库存"><input type="checkbox" name="box"
+          <label class="chk" style="margin-top:6px;display:none " title="显示零库存"><input type="checkbox" name="box"
  value='showZero'>零库存</label>
           <label class="chk" style="margin-top:6px; " title="显示含序列号商品"><input type="checkbox" name="box"
  value='isSerNum'>序列号商品</label>
@@ -75,7 +75,7 @@ $(document).keydown(function(event) {
     <div id="page"></div>
   </div>
   <div style="margin:10px 18px 0 0; " class="dn"  id="handleDom">
-    <div class="fl">
+    <div class="fl" style="display:none">
       <label>备注:</label>
       <input type="text" id="note" class="ui-input" style="width:560px;">
     </div>

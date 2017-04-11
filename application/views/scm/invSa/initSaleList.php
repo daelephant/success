@@ -32,6 +32,8 @@ $(document).keydown(function(event) {
 a.ui-btn{margin-left:10px;}
 #reAudit,#audit{display:none;}
 #classes{display:none;}
+.ui-pg-div{display:none !important;}/*隐藏设置*/
+
 /*#add,#copy{display:none;}*/
 </style>
 </head>

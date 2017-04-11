@@ -35,6 +35,7 @@ $(document).keydown(function(event) {
 #barCodeInsert.active{background-color: #23B317;}
 #audit,#save{display:none}
 #add,#copy,#edit,#prev,#next{display:none;}
+#config{display:none !important;}/*隐藏设置*/
 </style>
 </head>
 
@@ -50,7 +51,7 @@ $(document).keydown(function(event) {
           <span class="ui-combo-wrap" id="customer">
           <input type="text" name="" class="input-txt" autocomplete="off" value="" data-ref="date">
           <i class="ui-icon-ellipsis"></i></span></dd>
-        <dd id="identifier" class="pct20 tc">
+        <dd id="identifier" class="pct20 tc" style="display:none;">
           <label>销售人员:</label>
           <span class="ui-combo-wrap" id="sales">
               <input type="text" class="input-txt" autocomplete="off">

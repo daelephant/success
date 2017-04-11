@@ -103,7 +103,7 @@ $("#username").text(parent.SYSTEM.realName);
             <li><!--<span class="bulk-import">导入</span>--><a tabid="setting-customerList" data-right="BU_QUERY" tabTxt="接收部门管理" parentOpen="true" rel="pageTab" href="<?=site_url('settings/customer_list')?>">接收部门管理</a></li>
             <li><!--<span class="bulk-import">导入</span>--><a tabid="setting-vendorList" data-right="PUR_QUERY" tabTxt="供应商管理" parentOpen="true" rel="pageTab" href="<?=site_url('settings/vendor_list')?>">供应商管理</a></li>
             <li><a tabid="sales-salesList" data-right="SA_QUERY" tabTxt="出库记录" parentOpen="true" rel="pageTab" href="<?=site_url('scm/invSa')?>?action=initSaleList">出库记录</a></li>
-            <li><a tabid="purchase-salesList" data-right="PU_QUERY" tabTxt="采购记录" parentOpen="true" rel="pageTab" href="<?=site_url('scm/invPu')?>?action=initPurList">采购记录</a></li>
+            <!-- <li><a tabid="purchase-salesList" data-right="PU_QUERY" tabTxt="采购记录" parentOpen="true" rel="pageTab" href="<?=site_url('scm/invPu')?>?action=initPurList">采购记录</a></li> -->
         	<!-- <li><a href="<?=site_url('scm/receipt')?>?action=initReceipt" rel="pageTab" tabid="money-receiptList" tabTxt="收款记录" data-right="RECEIPT_QUERY" parentOpen="true">收款记录</a></li> -->
             <!-- <li><a href="<?=site_url('scm/payment')?>?action=initPay" rel="pageTab" tabid="money-paymentList" tabTxt="付款记录" data-right="PAYMENT_QUERY" parentOpen="true">付款记录</a></li> -->
         	<li><a href="<?=site_url('report/sales_detail')?>" rel="pageTab" tabid="report-salesDetail" tabTxt="出库明细表" data-right="SAREPORTDETAIL_QUERY" parentOpen="true">出库明细表</a></li>

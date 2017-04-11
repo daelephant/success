@@ -2,6 +2,12 @@
 $this->load->view('header');
  
 ?>
+<style type="text/css">
+  #save{display:none;} 
+  #audit{display:none} /*采购订单页面审核按钮*/
+  #config{display:none !important;} /*不显示设置钮*/
+
+</style>
 <script type="text/javascript">
 var isAdmin = <?php echo $this->common_model->isAdmin(219) ? 'true' : 'false'?>; //是否管理员
 var DOMAIN = document.domain;

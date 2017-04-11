@@ -31,7 +31,7 @@ $(document).keydown(function(event) {
 <style>
 .ui-jqgrid tr.jqgrow td{ height: 24px;padding: 3px 2px; }
 #add{display:none;}/*控制组装单记录的新增*/
-
+.ui-pg-div{display:none !important;}/*隐藏设置*/
 </style>
 </head>
 
@@ -49,7 +49,7 @@ $(document).keydown(function(event) {
           <span>-</span>
           <input type="text" id="endDate" value="2015-11-05" class="ui-input ui-datepicker-input">
         </li>
-        <li><!-- <a class="mrb more" id="moreCon">(高级搜索)</a> --><a class="ui-btn mrb" id="search">查询</a></li>
+        <li><a style="display:none" class="mrb more" id="moreCon">(高级搜索)</a><a class="ui-btn mrb" id="search">查询</a></li>
       </ul>
     </div>
     <div class="fr"><a class="ui-btn ui-btn-sp mrb" id="add">新增</a><a class="ui-btn mrb" id="print" target="_blank" href="javascript:void(0);">打印</a><a class="ui-btn" id="export" target="_blank">导出</a></div>
