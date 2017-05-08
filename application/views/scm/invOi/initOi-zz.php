@@ -60,9 +60,9 @@ $(document).keydown(function(event) {
         </dd>
         <dd id="identifier" class="pct35 tr">
           <label>单据编号：</label>
-          <span id="number"><?php echo str_no('ZZD')?></span></dd>
+          <span id="number"><?php echo str_no('ZZD')?></span></dd>    
       </dl>
-    </div>
+    </div>  
     <div class="grid-wrap">
       <h5>组合件：</h5>
       <div class="mb10">
@@ -71,9 +71,10 @@ $(document).keydown(function(event) {
       <table id="fixedGrid">
       </table>
       <h5>子件：</h5> 
-      <table id="grid">
+      <table style="width:600px" id="grid">
       </table>
     </div>
+    <iframe style="border-width:1px;border-color:#add9c0;position:relative;height:600px;float:right;margin-top:-240px;" src="../scm/invOi?action=initOi&type=cc"></iframe>
     <div class="con-footer cf">
       <!-- <div class="mb10">
           <input type="text" id="note" class="ui-input ui-input-ph">暂无备注信息</input>
@@ -98,7 +99,9 @@ $(document).keydown(function(event) {
           <span id="modifyTime"></span>
         </li>
       </ul>
+      
     </div>
+    
     <div class="cf" id="bottomField">
     	<div class="fr" id="toolBottom"></div>
     </div>
@@ -119,6 +122,7 @@ $(document).keydown(function(event) {
     <input type="text" class="textbox skuAuto" name="price" autocomplete="off">
   </div>
   <div id="storageBox" class="shadow target_box dn">
+  
   </div>
 </div>
 <script src="<?php echo base_url()?>statics/js/dist/assemble.js?ver=201510141132"></script>
